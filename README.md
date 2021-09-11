@@ -39,3 +39,4 @@ dpemotes/client/AnimationList @ lines 2061 to  2068
        EmoteMoving = true,
    }},
 ```  
+Add image to qb-inventory/html/images or aj-inventory/html/images
