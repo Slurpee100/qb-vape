@@ -18,7 +18,6 @@ AddEventHandler("consumables:client:Vape", function()
         else
             TriggerEvent('animations:client:EmoteCommandStart', {"vape"})
         end
-        TriggerEvent("evidence:client:SetStatus", "weedsmell", 300)
         TriggerEvent('animations:client:SmokeWeed')
     end)
 end)
@@ -30,11 +29,11 @@ qb-core/shared.lua
 ```
 dpemotes/client/AnimationList @ lines 2061 to  2068
 ```
-["vape"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "base", "Vape", AnimationOptions =
+["vape"] = {"amb@world_human_smoking@female@idle_a", "idle_b", "Vape", AnimationOptions =
    {
        Prop = "ba_prop_battle_vape_01",
-       PropBone = 18905,
-       PropPlacement = {0.08, -0.00, 0.03, -150.0, 90.0, -10.0},
+       PropBone = 28422,
+       PropPlacement = {0.015, -0.009, 0.003, 55.0, 0.0, 110.0},
        EmoteLoop = true,
        EmoteMoving = true,
    }},
